@@ -1,0 +1,17 @@
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\bin\Debug\net8.0\Infrastacture.deps.json
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\bin\Debug\net8.0\Infrastacture.runtimeconfig.json
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\bin\Debug\net8.0\Infrastacture.dll
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\bin\Debug\net8.0\Infrastacture.pdb
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\bin\Debug\net8.0\Domain.dll
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\bin\Debug\net8.0\Domain.pdb
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.csproj.AssemblyReference.cache
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.AssemblyInfoInputs.cache
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.AssemblyInfo.cs
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.csproj.CoreCompileInputs.cache
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrasta.2889F327.Up2Date
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.dll
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\refint\Infrastacture.dll
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.pdb
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.genruntimeconfig.cache
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\ref\Infrastacture.dll
