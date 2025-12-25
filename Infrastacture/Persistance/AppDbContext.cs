@@ -1,17 +1,15 @@
-﻿using Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using Domain.Entities; // your entities namespace
 
 namespace Infrastacture.Persistance
 {
-    public class AppDbContext
+    public class AppDbContext : DbContext
     {
+        public AppDbContext(DbContextOptions<AppDbContext> options)
+            : base(options)
+        {
+        }
 
         public DbSet<tbl_users> Users { get; set; }
-
     }
 }

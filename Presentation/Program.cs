@@ -2,13 +2,30 @@
 using Domain.Repositories;
 using Infrastacture.Persistance.Repositories;
 using Infrastacture.Persistance;
+using Application.Commands.UpdateUser;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
+
+//CQRS Handler
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(CreateUserCommandHandler).Assembly));
+
+builder.Services.AddMediatR(cfg =>
+    cfg.RegisterServicesFromAssembly(typeof(UpdateUserCommandHandler).Assembly));
+
+
+//connection string database
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("Data Source=localhost;Initial Catalog=LearnDB;Integrated Security=True;Encrypt=False")));
+
+
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 

@@ -14,14 +14,14 @@ namespace Infrastacture.Persistance.Repositories
     {
         private readonly AppDbContext _context;
 
-        public UserRepository()
+        public UserRepository(AppDbContext dbContext)
         {
-            _context = new AppDbContext();
+            _context = dbContext;
         }
 
         public async Task<tbl_users> AddNewUser(tbl_users NUser, CancellationToken cancellationToken = default)
         {
-            _context.Users.Add(NUser);            
+            await _context.Users.AddAsync(NUser);            
             return NUser;
         }
 
@@ -37,7 +37,7 @@ namespace Infrastacture.Persistance.Repositories
 
         public async Task<tbl_users> UpdateAsync(tbl_users Uuser, CancellationToken cancellationToken = default)
         {
-            _context.Users.AddOrUpdate(Uuser);
+            _context.Users.Update(Uuser);
             return Uuser;
         }
     }

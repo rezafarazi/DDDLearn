@@ -1,12 +1,13 @@
-﻿using System;
+﻿using Application.DTO;
+using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Commands.UpdateUser.UpdateUserCommand
+namespace Application.Commands.UpdateUser
 {
-    internal class UpdateUserCommand
-    {
-    }
+    public record UpdateUserCommand(int id,string name,string family,string username,string password,string email):IRequest<UserDTO>;
+
 }

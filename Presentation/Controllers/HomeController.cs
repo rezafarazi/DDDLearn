@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Application.Commands.CreateUser;
+using Application.Commands.UpdateUser;
 
 namespace Presentation.Controllers
 {
@@ -29,6 +30,26 @@ namespace Presentation.Controllers
             var userId = await Mediator.Send(command);
 
             return Redirect(Request.Headers.Referer+"?message=Done");
+        }
+
+
+
+
+
+        [Route("update")]
+        public IActionResult update()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        [Route("update")]
+        public async Task<IActionResult> updateUserDone(UpdateUserCommand command)
+        {
+            var userId = await Mediator.Send(command);
+
+            return Redirect(Request.Headers.Referer + "?message=Update Done");
         }
 
     }

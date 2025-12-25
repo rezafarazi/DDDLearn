@@ -9,6 +9,7 @@ C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\In
 C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.AssemblyInfoInputs.cache
 C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.AssemblyInfo.cs
 C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.csproj.CoreCompileInputs.cache
+C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.sourcelink.json
 C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrasta.2889F327.Up2Date
 C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\Infrastacture.dll
 C:\Users\rezafta\Desktop\NET\LearnDDD\LearnDDD\Infrastacture\obj\Debug\net8.0\refint\Infrastacture.dll

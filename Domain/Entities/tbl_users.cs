@@ -24,6 +24,18 @@ namespace Domain.Entities
         }
 
 
+        public tbl_users(int Id,string Name, string Family, string Username, string Password, string Email)
+        {
+            this.id = Id;
+            name = Name;
+            family = Family;
+            username = Username;
+            password = Password;
+            email = Email;
+            create_at = DateTime.UtcNow.ToString();
+        }
+
+
         public tbl_users(string Name,string Family,string Username,string Password,string Email)
         {
             name = Name;
