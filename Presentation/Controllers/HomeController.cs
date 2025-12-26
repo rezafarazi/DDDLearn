@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Application.Commands.CreateUser;
 using Application.Commands.UpdateUser;
+using Application.Quaries.GetAllUsers;
 
 namespace Presentation.Controllers
 {
@@ -50,6 +51,16 @@ namespace Presentation.Controllers
             var userId = await Mediator.Send(command);
 
             return Redirect(Request.Headers.Referer + "?message=Update Done");
+        }
+
+
+
+
+        [Route("users")]
+        public async Task<IActionResult> users()
+        {
+            ViewBag.users = await Mediator.Send(new GetAllUsersQuery());
+            return View();
         }
 
     }

@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E39BBB-FADA-4D8F-9494-E3A062A9ABE7}|Application\\Application.csproj|c:\\users\\rezafta\\desktop\\net\\learnddd\\learnddd\\application\\quaries\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E39BBB-FADA-4D8F-9494-E3A062A9ABE7}|Application\\Application.csproj|solutionrelative:application\\quaries\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20DE94C0-D8AC-4E2E-B62A-F5ECFBCF8525}|Presentation\\Presentation.csproj|c:\\users\\rezafta\\desktop\\net\\learnddd\\learnddd\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20DE94C0-D8AC-4E2E-B62A-F5ECFBCF8525}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DC35619-CE33-4E60-9838-B957B40D0B07}|Infrastacture\\Infrastacture.csproj|c:\\users\\rezafta\\desktop\\net\\learnddd\\learnddd\\infrastacture\\persistance\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DC35619-CE33-4E60-9838-B957B40D0B07}|Infrastacture\\Infrastacture.csproj|solutionrelative:infrastacture\\persistance\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E39BBB-FADA-4D8F-9494-E3A062A9ABE7}|Application\\Application.csproj|c:\\users\\rezafta\\desktop\\net\\learnddd\\learnddd\\application\\quaries\\getallusers\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E39BBB-FADA-4D8F-9494-E3A062A9ABE7}|Application\\Application.csproj|solutionrelative:application\\quaries\\getallusers\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20DE94C0-D8AC-4E2E-B62A-F5ECFBCF8525}|Presentation\\Presentation.csproj|c:\\users\\rezafta\\desktop\\net\\learnddd\\learnddd\\presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20DE94C0-D8AC-4E2E-B62A-F5ECFBCF8525}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20DE94C0-D8AC-4E2E-B62A-F5ECFBCF8525}|Presentation\\Presentation.csproj|c:\\users\\rezafta\\desktop\\net\\learnddd\\learnddd\\presentation\\views\\home\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20DE94C0-D8AC-4E2E-B62A-F5ECFBCF8525}|Presentation\\Presentation.csproj|solutionrelative:presentation\\views\\home\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Infrastacture\\Persistance\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastacture\\Persistance\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Infrastacture\\Persistance\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastacture\\Persistance\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T07:13:13.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T07:10:44.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllUsersQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Application\\Quaries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Quaries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
+              "ToolTip": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Application\\Quaries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
+              "RelativeToolTip": "Application\\Quaries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T07:10:39.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllUsersQuery.cs",
+              "DocumentMoniker": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Application\\Quaries\\GetAllUsers\\GetAllUsersQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Quaries\\GetAllUsers\\GetAllUsersQuery.cs",
+              "ToolTip": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Application\\Quaries\\GetAllUsers\\GetAllUsersQuery.cs",
+              "RelativeToolTip": "Application\\Quaries\\GetAllUsers\\GetAllUsersQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T07:10:33.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "users.cshtml",
+              "DocumentMoniker": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Presentation\\Views\\Home\\users.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\Views\\Home\\users.cshtml",
+              "ToolTip": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Presentation\\Views\\Home\\users.cshtml",
+              "RelativeToolTip": "Presentation\\Views\\Home\\users.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-26T07:08:38.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Presentation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rezafta\\Desktop\\NET\\LearnDDD\\LearnDDD\\Presentation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAADwvxwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T07:06:58.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

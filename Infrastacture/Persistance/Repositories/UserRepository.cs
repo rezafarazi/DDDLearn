@@ -1,9 +1,8 @@
 ﻿using Domain.Entities;
 using Domain.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
-using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +20,7 @@ namespace Infrastacture.Persistance.Repositories
 
         public async Task<tbl_users> AddNewUser(tbl_users NUser, CancellationToken cancellationToken = default)
         {
-            await _context.Users.AddAsync(NUser);            
+            await _context.Users.AddAsync(NUser, cancellationToken);
             return NUser;
         }
 
